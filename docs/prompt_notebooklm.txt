@@ -1,0 +1,28 @@
+Tinjau logika Voucher Kas Keluar berikut hanya berdasarkan sumber yang saya
+masukkan. Sumber meliputi bahan PSAK 207 dari IAI yang dapat saya akses secara
+sah, bahan pendamping IAS 7, skema SQL, app.py, dan backend proyek.
+
+Susun tabel: aturan bisnis | sumber dan lokasi kutipan | implementasi terkait |
+status sesuai/perlu koreksi/tidak cukup bukti | rekomendasi.
+
+Periksa:
+1. Definisi kas dan setara kas. Jelaskan kriteria likuiditas, konversi ke jumlah
+   kas tertentu, risiko perubahan nilai, tujuan pemenuhan komitmen jangka pendek,
+   dan jatuh tempo lazim sekitar tiga bulan sejak perolehan. Jangan gunakan satu
+   kriteria jatuh tempo saja untuk menyatakan instrumen sebagai setara kas.
+2. Daftar akun demo hanya menandai Kas dan Bank sebagai kas. Apakah ada dasar
+   untuk otomatis menganggap seluruh deposito/investasi sebagai setara kas?
+3. Voucher kas keluar mendebit beban/aset/utang yang relevan dan mengkredit kas
+   atau bank. Keseimbangan debit-kredit saja tidak membuktikan substansi transaksi
+   atau kepatuhan seluruh standar pengakuan/pengukuran.
+4. Bedakan ketentuan standar akuntansi dari kontrol aplikasi: kunci POSTED,
+   reversal, SHA-256, dan audit log bukan otomatis persyaratan teknis PSAK 207.
+5. Bedakan pembayaran kas dari transaksi nonkas serta klasifikasi arus kas
+   operasi/investasi/pendanaan yang perlu pertimbangan konteks.
+6. Beri skenario: pembayaran beban listrik; pembelian peralatan tunai; pembelian
+   persediaan kredit; investasi jatuh tempo enam bulan. Tunjukkan hal yang bisa
+   dan tidak bisa disimpulkan dari kode.
+
+Rujuk sumber pada setiap kesimpulan akuntansi; bila sumber tidak mencukupi,
+tulis “tidak cukup bukti”. Jangan mengarang nomor paragraf PSAK atau hasil uji
+kode. Akhiri dengan ringkasan verifikasi dan koreksi konkret yang diperlukan.

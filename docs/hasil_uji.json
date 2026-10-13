@@ -1,0 +1,149 @@
+{
+  "run_at_utc": "2026-10-13T07:29:10.079010+00:00",
+  "tests": 35,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "test": "test_api.ApiTests.test_auth_required",
+      "status": "PASS"
+    },
+    {
+      "test": "test_api.ApiTests.test_bad_payload",
+      "status": "PASS"
+    },
+    {
+      "test": "test_api.ApiTests.test_posted_http_edit_delete_disabled",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_adjustments_signed_and_guarded",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_audit_and_stock_events_append_only",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_balanced_post_hash_and_actor",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_cash_out_requires_cash_credit",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_cash_voucher_cannot_bypass_stock_module",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_checksum_detects_privileged_tamper",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_checksum_timezone_independent",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_duplicate_reference_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_empty_post_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_foreign_key_rejects_unknown_account",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_inventory_purchase_sale_and_journal",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_line_constraints",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_negative_stock_atomic_rollback",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_on_delete_restrict",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_posted_header_immutable",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_posted_lines_immutable",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_qty_zero_negative_or_bad_type",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_reversal_offsets_original",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_runtime_cannot_bypass_api",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_two_cashiers_last_unit",
+      "status": "PASS"
+    },
+    {
+      "test": "test_database.DatabaseTests.test_unbalanced_direct_rpc_rollback",
+      "status": "PASS"
+    },
+    {
+      "test": "test_ui.UiTests.test_added_blank_account_is_rejected_without_crash",
+      "status": "PASS"
+    },
+    {
+      "test": "test_ui.UiTests.test_balanced_button_enabled_and_empty_reference_disabled",
+      "status": "PASS"
+    },
+    {
+      "test": "test_ui.UiTests.test_empty_nominal_not_coerced_to_zero",
+      "status": "PASS"
+    },
+    {
+      "test": "test_ui.UiTests.test_post_from_ui",
+      "status": "PASS"
+    },
+    {
+      "test": "test_ui.UiTests.test_success_resets_form_generation",
+      "status": "PASS"
+    },
+    {
+      "test": "test_ui.UiTests.test_unbalanced_button_disabled",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validation.ValidationTests.test_bad_money",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validation.ValidationTests.test_decimal_exact",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validation.ValidationTests.test_invalid_account",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validation.ValidationTests.test_unbalanced",
+      "status": "PASS"
+    },
+    {
+      "test": "test_validation.ValidationTests.test_zero_or_both_sides",
+      "status": "PASS"
+    }
+  ]
+}

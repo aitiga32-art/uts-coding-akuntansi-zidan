@@ -1,0 +1,23 @@
+Saya membuat purwarupa Voucher Kas Keluar untuk UTS Pemrograman/Coding Akuntansi.
+Buat atau tinjau formulir Python Streamlit dengan tanggal, nomor bukti, deskripsi,
+dan tabel dinamis berisi akun, debit, kredit. Saya akan melampirkan app.py,
+backend/validation.py, backend/service.py, dan skema SQL dari proyek.
+
+Persyaratan:
+1. Baris dapat ditambah/dihapus. Tiap baris punya tepat satu nominal positif,
+   sedangkan sisi lain nol. Dilarang nominal negatif, kosong, NaN, Infinity.
+2. Maksimum dua angka desimal; gunakan Decimal untuk penghitungan Python.
+3. Tampilkan total debit, total kredit, dan selisih setelah perubahan sel dikomit.
+   Aktifkan Submit hanya jika minimal dua baris valid, total sama dan > 0,
+   nomor bukti/deskripsi terisi, serta ada kredit kas/bank tanpa debit kas.
+4. Akun persediaan diproses melalui modul stok, bukan voucher kas manual.
+5. Backend kembali memvalidasi input dan memanggil submit_cash_voucher secara
+   atomik. Jangan mempercayai validasi UI sebagai kontrol satu-satunya.
+6. Setelah POSTED, transaksi tidak bisa diedit atau dihapus; sediakan pembalik.
+7. Tampilkan pesan berhasil, tidak seimbang, nomor bukti duplikat, dan kegagalan
+   koneksi tanpa mengungkap password atau connection string.
+
+Gunakan tampilan sederhana berbahasa Indonesia yang tetap terbaca pada layar
+sempit. Berikan kode, alasan desain, dan daftar skenario uji. Bila lingkungan
+Canvas tidak dapat menjalankan Streamlit, berikan kode untuk dijalankan lokal;
+jangan mengklaim sudah melakukan koneksi database atau pengujian yang belum ada.

@@ -1,0 +1,18 @@
+{
+  "project_ref": "mkbmblsxtmtcdsjqbhke",
+  "project_name": "UTS Akuntansi Zidan",
+  "evidence": "Hasil SQL Editor Supabase, sql/006_cloud_smoke_test.sql",
+  "scope": "SQL Editor satu sesi; bukan tes koneksi aplikasi atau concurrency cloud",
+  "status": "PASS",
+  "executed_at": "2026-10-13T07:17:08.492162+00:00",
+  "session_user": "postgres",
+  "checks_passed": 12,
+  "server_version": "17.11",
+  "test_data_rolled_back": true,
+  "checks": [
+    "voucher_seimbang_posted", "checksum_sha256_valid", "aktor_dan_waktu_tercatat",
+    "tidak_seimbang_ditolak_atomik", "header_posted_terkunci", "detail_posted_terkunci",
+    "reversal_saling_menghapus_saldo", "nomor_bukti_unik", "stok_dan_jurnal_terintegrasi",
+    "stok_negatif_ditolak_atomik", "constraint_baris_nol_ditolak", "hak_akses_runtime_terbatas"
+  ]
+}
