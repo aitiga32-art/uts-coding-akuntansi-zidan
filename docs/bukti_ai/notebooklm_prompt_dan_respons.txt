@@ -1,0 +1,14 @@
+Tanggal: 13 Oktober 2026
+Notebook: UTS Zidan - Verifikasi Voucher Kas Keluar
+URL: https://notebook.google.com/notebook/3ad7d44f-ac1c-43c8-bca8-a1eb02b48d32
+
+Prompt lengkap tersimpan di ../prompt_notebooklm.txt. Sumber yang dipakai meliputi materi IAI PSAK 207, bahan IAS 7/IFRIC, dan kode proyek. NotebookLM menyertakan sitasi klik-ke-sumber.
+
+Temuan utama:
+- Kas/setara kas tidak boleh ditentukan hanya dari label akun atau satu kriteria jatuh tempo.
+- Hanya akun Kas dan Bank yang ditandai is_cash dalam demo; deposito/investasi tidak otomatis menjadi setara kas.
+- Keseimbangan debit-kredit tidak membuktikan substansi, periode, otorisasi, atau kepatuhan seluruh standar.
+- Kunci POSTED, reversal, SHA-256, dan audit log adalah kontrol aplikasi, bukan persyaratan teknis PSAK 207.
+- Pembelian persediaan kredit adalah transaksi nonkas; pembayaran beban listrik dan pembelian peralatan tunai membutuhkan klasifikasi arus kas sesuai konteks.
+
+Catatan review: respons awal menyatakan investasi enam bulan pasti bukan setara kas ketika sumber yang aktif belum cukup eksplisit. Sumber IFRS/IFRIC tambahan kemudian dimasukkan. Kesimpulan final yang aman: instrumen tersebut tidak boleh otomatis diklasifikasikan sebagai setara kas; periksa seluruh kriteria serta jatuh tempo dari tanggal perolehan.
